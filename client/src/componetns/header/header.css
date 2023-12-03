@@ -1,0 +1,30 @@
+.header{
+    background-color: rgb(0, 115, 255);
+    
+}
+.header_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+.stylish-link {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, font-size 0.3s, text-shadow 0.3s;
+    position: relative;
+}
+
+.stylish-link:hover {
+    color: #a9cce3; 
+    font-size: 22px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.stylish-link:active {
+    color: #1f618d;
+    border-bottom-color: #1f618d;
+}
